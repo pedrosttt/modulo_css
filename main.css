@@ -1,0 +1,166 @@
+/* Define estilos padrão para todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    padding: 16px 0; /* Espaçamento interno superior e inferior */
+}
+
+/* Estilos para o título do site e os links de navegação */
+.site-title,
+.nav-link {
+    background-color: #676967; /* Cor de fundo desejada (substitua pelo código da cor que você deseja) */
+    color: white; /* Cor do texto */
+    padding: 8px 16px; /* Espaçamento interno */
+}
+
+/* Estilos para os links dentro do cabeçalho */
+header li a {
+    color: white; /* Cor dos links dentro do cabeçalho */
+    text-decoration: none;
+}
+
+header li {
+    display: inline; /* Os itens da lista de navegação são exibidos em linha */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para o elemento que envolve todo o conteúdo do site */
+.main-container {
+    max-width: 1200px; /* Defina o máximo de largura para o conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    padding: 16px; /* Espaçamento para que o conteúdo não fique colado nas bordas */
+}
+
+/* Estilos específicos para elementos dentro do cabeçalho */
+header .container {
+    display: inline; /* Os elementos são exibidos em linha */
+}
+
+/* Estilos para o contêiner principal (envolve toda a seção de artigos) */
+.container {
+    width: 1366px; /* Largura máxima do contêiner principal */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilos para os artigos (itens individuais de notícias) */
+.articles {
+    display: flex; /* Os artigos são exibidos como um flex container */
+    flex-wrap: wrap; /* Se houver mais artigos do que cabem em uma linha, eles serão quebrados para a próxima linha */
+    justify-content: space-between; /* Distribui os artigos uniformemente ao longo do contêiner principal */
+}
+
+/* Estilos para as imagens dos artigos */
+.articles article img {
+    height: 180px; /* Altura fixa para as imagens dos artigos */
+    /* width: 100%; */
+}
+
+/* Estilos para os elementos de artigo */
+.articles article {
+    width: 30%; /* Largura dos artigos - 3 artigos por linha */
+}
+
+/* Estilos para as seções (Esportes e Economia) */
+section {
+    padding: 16px; /* Espaçamento interno para as seções */
+}
+
+/* Estilos para os títulos de seção e os artigos */
+section h2,
+.articles article {
+    margin-bottom: 16px; /* Espaçamento inferior entre títulos de seção e artigos */
+}
+
+/* Estilos para os títulos dos artigos */
+.articles article h3 {
+    margin-top: 6px; /* Espaçamento superior do título do artigo */
+    margin-bottom: 6px; /* Espaçamento inferior do título do artigo */
+}
+
+/* Estilos para os links dentro dos artigos */
+#sports article a {
+    background-color: #106d24; /* Cor de fundo do link dentro dos artigos */
+    color: white; /* Cor do texto dos links dentro dos artigos */
+    padding: 8px; /* Espaçamento interno do link dentro dos artigos */
+    display: inline-block; /* Os links são exibidos como blocos em linha */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#economy article a {
+    background-color: #ffee00; /* Cor de fundo do link dentro dos artigos */
+    color: rgb(0, 0, 0); /* Cor do texto dos links dentro dos artigos */
+    padding: 8px; /* Espaçamento interno do link dentro dos artigos */
+    display: inline-block; /* Os links são exibidos como blocos em linha */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#tecnology article a {
+    background-color: #102d6d; /* Cor de fundo do link dentro dos artigos */
+    color: white; /* Cor do texto dos links dentro dos artigos */
+    padding: 8px; /* Espaçamento interno do link dentro dos artigos */
+    display: inline-block; /* Os links são exibidos como blocos em linha */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#environment article a {
+    background-color: #f119df; /* Cor de fundo do link dentro dos artigos */
+    color: rgb(0, 0, 0); /* Cor do texto dos links dentro dos artigos */
+    padding: 8px; /* Espaçamento interno do link dentro dos artigos */
+    display: inline-block; /* Os links são exibidos como blocos em linha */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+#sports article a:hover,
+#economy article a:hover,
+#tecnology article a:hover,
+#environment article a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o corpo do documento */
+body {
+    background-color: rgba(172, 192, 172, 0.548); /* Cor de fundo do corpo do documento */
+}
+
+.articles article p
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1)
+}
+
+#economy {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+#tecnology {
+    background-color: rgba(0, 132, 255, 0.2);
+}
+
+#environment {
+    background-color: rgba(255, 0, 212, 0.2);
+}
